@@ -7,8 +7,8 @@ flowchart TD
     D --> E[Modo Manual]
     D --> F[Modo Automático]
     E --> G[¿Botón 2 pulsado?]
-    G --> |Sí| H[Cambiar a siguiente cuerda]
-    G --> |No| I[Esperar entrada]
+    G --> H[if SI Cambiar a siguiente cuerda]
+    G --> I[if NO Esperar entrada]
     H --> J[Captar frecuencia del micrófono]
     I --> J
     J --> K[Mostrar frecuencia en página web]
