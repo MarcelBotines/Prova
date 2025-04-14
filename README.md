@@ -1,6 +1,7 @@
 # Prova
+
+``` mermaid
 flowchart TD
-``` mermaid 
     A[Inicio] --> B[Inicializar ESP32-S3]
     B --> C[Configurar micrófono, botones y servidor web]
     C --> D[¿Modo automático o manual?]
